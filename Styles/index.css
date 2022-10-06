@@ -1,0 +1,107 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{ 
+    background-color:hsl(212, 45%, 89%);
+    margin: 8%;
+}
+
+.Contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10%;
+    margin-top: 25%;
+}
+
+.primerContenedor {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+img {
+    width: 55%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.primerContenedor #azulOscuro{
+    display: flex;
+    font-size: 15px;
+    color:hsl(218, 44%, 22%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:700;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.primerContenedor #oscuro{
+    display: none;
+}
+
+.primerContenedor #gris{
+    font-size: 15px;
+    display: flex;
+    color:hsl(220, 15%, 55%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:400;
+}
+
+.attribution{padding-top: 1rem;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:1440px) {
+
+    .Contenedor {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10%;
+        margin: auto;
+        align-content: center;
+        align-items: center;
+    }
+
+    .primerContenedor {
+        display: flex;
+        width: 61%;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .primerContenedor #gris {
+        font-size: 15px;
+        display: flex;
+        color: hsl(220, 15%, 55%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        margin: auto;
+    }
+    
+}
